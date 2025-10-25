@@ -85,8 +85,6 @@ async def soil_properties(
     password = os.getenv("ISDA_PASSWORD")
     if not username or not password:
         raise HTTPException(status_code=400, detail="ISDA_USERNAME and ISDA_PASSWORD environment variables are required")
-git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
     default_props = [
         "ph",
         "aluminium_extractable",
