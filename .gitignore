@@ -1,0 +1,4 @@
+# ignore local environment files and caches
+.env
+__pycache__/
+.pytest_cache/
